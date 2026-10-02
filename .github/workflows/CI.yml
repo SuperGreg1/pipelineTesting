@@ -10,8 +10,8 @@ jobs:
       - name: Step's name
         uses: actions/checkout@v4
 
-      - name: Build
-        run: make build
+      - name: Compile with MakeFile
+        run: make all
 
       - name: Test
         run: make run
